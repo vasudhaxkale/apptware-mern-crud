@@ -1,0 +1,45 @@
+#root {
+  min-height: 100vh;
+}
+
+.page {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.page h1 {
+  margin-bottom: 0.5rem;
+}
+
+.page p {
+  color: #888;
+  margin-bottom: 2rem;
+}
+
+.page nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.page nav a {
+  padding: 0.5rem 1rem;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
+.page nav a:hover {
+  background-color: #333;
+}
+
+@media (prefers-color-scheme: light) {
+  .page nav a {
+    background-color: #f0f0f0;
+  }
+
+  .page nav a:hover {
+    background-color: #e0e0e0;
+  }
+}
